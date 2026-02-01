@@ -5,7 +5,7 @@ import { Heart } from 'lucide-react';
 const LandingScreen = ({ onStart }) => {
     return (
         <div className="h-screen w-full relative flex flex-col items-center justify-center overflow-hidden bg-cover bg-center"
-            style={{ backgroundImage: `linear-gradient(rgba(255, 241, 242, 0.8), rgba(255, 241, 242, 0.6)), url('/images/background.png')` }}>
+            style={{ backgroundImage: `linear-gradient(rgba(255, 241, 242, 0.8), rgba(255, 241, 242, 0.6)), url('/ui-project/images/background.jpg')` }}>
 
             {/* Central Content */}
             <div className="z-10 text-center px-4">

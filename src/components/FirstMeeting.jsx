@@ -50,8 +50,8 @@ const FirstMeeting = () => {
                                 value={dateInput}
                                 onChange={(e) => setDateInput(e.target.value)}
                                 className={`w-full px-4 py-3 rounded-xl border-2 outline-none focus:ring-2 transition-all ${error
-                                        ? 'border-red-400 focus:ring-red-200 bg-red-50'
-                                        : 'border-romantic-200 focus:border-romantic-400 focus:ring-romantic-200 bg-white'
+                                    ? 'border-red-400 focus:ring-red-200 bg-red-50'
+                                    : 'border-romantic-200 focus:border-romantic-400 focus:ring-romantic-200 bg-white'
                                     }`}
                             />
                             {error && (
@@ -89,7 +89,7 @@ const FirstMeeting = () => {
 
                         <div className="relative group rounded-2xl overflow-hidden shadow-lg transform rotate-2 hover:rotate-0 transition-all duration-500 border-8 border-white">
                             <img
-                                src="/images/first-meeting.jpg" // Using the renamed uploaded file
+                                src="/ui-project/images/first-meeting.jpg" // Using the renamed uploaded file
                                 alt="Our First Meeting"
                                 className="w-full h-auto object-cover"
                             />

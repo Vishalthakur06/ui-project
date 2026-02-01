@@ -27,7 +27,7 @@ const MusicPlayer = ({ playing, setPlaying }) => {
             >
                 {playing ? <Music size={24} /> : <VolumeX size={24} />}
             </button>
-            <audio ref={audioRef} src="/music/bgm.mp3" loop />
+            <audio ref={audioRef} src="/ui-project/music/bgm.mp3" loop />
         </div>
     );
 };

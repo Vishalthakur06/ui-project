@@ -42,8 +42,8 @@ const LoveStory = () => {
                             value={dateInput}
                             onChange={(e) => setDateInput(e.target.value)}
                             className={`w-full px-4 py-3 rounded-xl border-2 outline-none focus:ring-2 transition-all ${error
-                                    ? 'border-red-400 focus:ring-red-200 bg-red-50'
-                                    : 'border-romantic-200 focus:border-romantic-400 focus:ring-romantic-200 bg-white'
+                                ? 'border-red-400 focus:ring-red-200 bg-red-50'
+                                : 'border-romantic-200 focus:border-romantic-400 focus:ring-romantic-200 bg-white'
                                 }`}
                         />
                         {error && (
@@ -84,7 +84,7 @@ const LoveStory = () => {
                             className="relative"
                         >
                             <div className="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-romantic-200 shadow-2xl relative z-10">
-                                <img src="/images/story-boy.jpg" alt="Boy" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
+                                <img src="/ui-project/images/story-boy.jpg" alt="Boy" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
                             </div>
                             <div className="absolute inset-0 rounded-full border-4 border-romantic-400 animate-pulse z-0 blur-sm"></div>
                         </motion.div>
@@ -107,7 +107,7 @@ const LoveStory = () => {
                             className="relative"
                         >
                             <div className="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-romantic-200 shadow-2xl relative z-10">
-                                <img src="/images/story-girl.jpg" alt="Girl" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
+                                <img src="/ui-project/images/story-girl.jpg" alt="Girl" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
                             </div>
                             <div className="absolute inset-0 rounded-full border-4 border-romantic-400 animate-pulse z-0 blur-sm"></div>
                         </motion.div>
