@@ -4,13 +4,13 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "homepage": "https://vishalthakur06.github.io/ui-project",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-"deploy": "gh-pages -d dist"
-
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "framer-motion": "^12.29.2",
